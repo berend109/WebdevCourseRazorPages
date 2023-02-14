@@ -6,11 +6,11 @@
 }
 
 <div>
-    <p id="result">###</p>
+    <p id="result">@Model.FirstInput</p>
 </div>
 
 <form method="post" id="calculatorForm">
-    <input type="hidden" ###>
+    <input type="hidden" name="firstInput" value="@Model.FirstInput">
     <input type="text" id="input" name="input">
     <button name="addBtn" id="addBtn" type="submit" ###>+</button>
     <button name="subBtn" id="subBtn" type="submit" ###>-</button>
